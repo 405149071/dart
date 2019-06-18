@@ -14,8 +14,21 @@ l2.add("张三");
 l2.add("李四");
 l2.add("王五");
 
-print(l2);
 
+print(l2);
+//反转
+print(l2.reversed.toList());
+// addall
+l2.addAll(["赵六","孙七","张三"]);
+print(l2);
+// 将1开始，3结束（1，2）都换成haha（或数组）
+l2.fillRange(1,3,"haha");
+print(l2);
+// 插入(可批量插入)
+l2.insert(1,"aaa");
+print(l2);
+l2.insertAll(1,["bbb",'ccc']);
+print(l2);
 
 // 3
 var l3 = new List<String>();
