@@ -1,0 +1,19 @@
+import 导入
+
+1. 导入自定义库
+import "lib/xxx.dart";
+2 。导入系统内置库
+import 'dart:math';
+import 'dart:io";
+3.导入pub包中的库
+import "package:http/http.dart";
+
+3.1 在项目根目录创建pubspec.yaml
+3.2 在文件中，配置名称，描述，依赖
+3.3 然后运行pub get获取包下载到本地
+3.4 import后就可以正常使用了。
+
+
+4. 部分导入
+4.1 import "package:lib1/lib1.dart" show f1,f3;
+4.2 import "package:lib1/lib1.dart" hide f1,f3;
